@@ -1,8 +1,9 @@
 PATH
   remote: .
   specs:
-    typ-rspec-matcer (0.0.0)
+    typ-rspec-matcher (0.0.0)
       awesome_print
+      typ
       typ-formatter
 
 GEM
@@ -108,8 +109,7 @@ DEPENDENCIES
   pry
   pry-byebug
   rspec
-  typ
-  typ-rspec-matcer!
+  typ-rspec-matcher!
 
 BUNDLED WITH
    1.16.1

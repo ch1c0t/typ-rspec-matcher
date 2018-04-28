@@ -7,4 +7,5 @@ Gem::Specification.new do |g|
 
   g.add_dependency 'awesome_print'
   g.add_dependency 'typ-formatter'
+  g.add_dependency 'typ'
 end

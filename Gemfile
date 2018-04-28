@@ -7,6 +7,5 @@ gem 'pry-byebug'
 gem 'mutant'
 gem 'mutant-rspec'
 gem 'rspec'
-gem 'typ'
 
 gemspec
