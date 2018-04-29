@@ -20,4 +20,8 @@ describe Typ::RSpec::Matcher do
 
     expect(matcher.failure_message).to eq failure_message
   end
+
+  it '#description' do
+    expect(matcher.description).to eq "be Positive"
+  end
 end

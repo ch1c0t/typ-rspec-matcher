@@ -17,6 +17,10 @@ module Typ
       def failure_message
         @it.ai + "\n" + Formatter.new(@typ).to_s
       end
+
+      def description
+        "be #{@typ_class}"
+      end
     end
   end
 end
