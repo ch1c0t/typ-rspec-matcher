@@ -9,7 +9,7 @@ describe Typ::RSpec::Matcher do
   let(:matcher) { described_class.new Positive }
 
   it 'works' do
-    bool = matcher.match? -1
+    bool = matcher.matches? -1
     expect(bool).to be false
 
     failure_message = <<~S.chomp

@@ -8,7 +8,7 @@ module Typ
         @typ_class = typ_class
       end
 
-      def match? it
+      def matches? it
         @it = it
         @typ = @typ_class.new it
         @typ.ok?
