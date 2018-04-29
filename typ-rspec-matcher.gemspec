@@ -1,7 +1,7 @@
 Gem::Specification.new do |g|
   g.name    = 'typ-rspec-matcher'
   g.files   = `git ls-files`.split($/)
-  g.version = '0.0.1'
+  g.version = '0.0.2'
   g.summary = 'A RSpec matcher to check objects with typs.'
   g.authors = ['Anatoly Chernow']
 
