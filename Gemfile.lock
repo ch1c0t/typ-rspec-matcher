@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    typ-rspec-matcher (0.0.2)
+    typ-rspec-matcher (0.0.3)
       awesome_print
       typ
       typ-formatter
@@ -85,8 +85,8 @@ GEM
     rspec-support (3.6.0)
     string-indent (0.0.1)
     thread_safe (0.3.6)
-    typ (0.0.3)
-    typ-formatter (0.0.1)
+    typ (0.0.6)
+    typ-formatter (0.0.2)
       rainbow
       string-indent
     unparser (0.2.7)
@@ -112,4 +112,4 @@ DEPENDENCIES
   typ-rspec-matcher!
 
 BUNDLED WITH
-   1.16.1
+   1.17.2
