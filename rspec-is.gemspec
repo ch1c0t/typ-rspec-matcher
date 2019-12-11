@@ -5,6 +5,5 @@ Gem::Specification.new do |g|
   g.summary = 'A RSpec extension for typed testing.'
   g.authors = ['Anatoly Chernow']
 
-  g.add_dependency 'awesome_print'
   g.add_dependency 'rspec'
 end
