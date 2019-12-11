@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rspec-is (0.0.0)
+    rspec-fit (0.0.0)
       rspec
 
 GEM
@@ -40,7 +40,7 @@ DEPENDENCIES
   byebug
   pry
   pry-byebug
-  rspec-is!
+  rspec-fit!
 
 BUNDLED WITH
    1.17.2
