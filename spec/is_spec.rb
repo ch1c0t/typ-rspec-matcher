@@ -1,4 +1,4 @@
-require 'rspec/fit'
+require 'is/rspec'
 
 class T
   def initialize it

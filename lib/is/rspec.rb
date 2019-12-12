@@ -1,7 +1,7 @@
 require 'rspec'
 
-module RSpec
-  module Fit
+module Is
+  module RSpec
     class Matcher
       def initialize type
         @type = type
@@ -31,8 +31,8 @@ module RSpec
       end
     end
   end
+end
 
-  RSpec.configure do |config|
-    config.include Fit::Helpers
-  end
+RSpec.configure do |config|
+  config.include Is::RSpec::Helpers
 end

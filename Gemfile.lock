@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rspec-fit (0.0.0)
+    is-rspec (0.0.0)
       rspec
 
 GEM
@@ -38,9 +38,9 @@ PLATFORMS
 DEPENDENCIES
   awesome_print
   byebug
+  is-rspec!
   pry
   pry-byebug
-  rspec-fit!
 
 BUNDLED WITH
    1.17.2
