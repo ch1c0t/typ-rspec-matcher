@@ -13,7 +13,7 @@ describe Typ::RSpec::Matcher do
     expect(bool).to be false
 
     failure_message = <<~S.chomp
-      -1
+      \e[1;34m-1\e[0m
       #{Rainbow(Positive).red}
         #{Rainbow('is [:>, 0]').red}
     S
