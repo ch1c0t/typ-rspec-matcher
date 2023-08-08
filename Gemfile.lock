@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    typ-rspec-matcher (0.1.0)
+    typ-rspec-matcher (0.1.1)
       awesome_print (~> 1.9.2)
       typ (~> 0.1.2)
       typ-formatter (~> 0.1.2)
