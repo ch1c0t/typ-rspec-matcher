@@ -6,7 +6,7 @@ Gem::Specification.new do |g|
   g.authors = ['Anatoly Chernov']
   g.email   = ["chertoly@gmail.com"]
 
-  g.add_dependency 'awesome_print'
-  g.add_dependency 'typ-formatter'
-  g.add_dependency 'typ'
+  g.add_dependency 'awesome_print', '~> 1.9.2'
+  g.add_dependency 'typ-formatter', '~> 0.1.2'
+  g.add_dependency 'typ', '~> 0.1.2'
 end

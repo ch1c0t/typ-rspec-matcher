@@ -1,10 +1,5 @@
 require_relative 'helper'
 
-class Positive
-  include Typ
-  is [:>, 0]
-end
-
 describe Typ::RSpec::Matcher do
   let(:matcher) { described_class.new Positive }
 
