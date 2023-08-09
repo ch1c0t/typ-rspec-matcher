@@ -11,7 +11,7 @@ module Typ
       def matches? it
         @it = it
         @typ = @typ_class.new it
-        (@typ.name = @typ.name + @name_appendix) if @name_appendix
+        @typ.name += @name_appendix if @name_appendix
         @typ.ok?
       end
 

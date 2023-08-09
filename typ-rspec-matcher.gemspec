@@ -1,7 +1,7 @@
 Gem::Specification.new do |g|
   g.name    = 'typ-rspec-matcher'
   g.files   = `git ls-files`.split($/)
-  g.version = '0.1.1'
+  g.version = '0.1.2'
   g.summary = 'A RSpec matcher to pose.'
   g.authors = ['Anatoly Chernov']
   g.email   = ['chertoly@gmail.com']
