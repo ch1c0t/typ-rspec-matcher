@@ -1,12 +1,5 @@
 == Development
 
-To build:
-
-[source,bash]
-----
-bundle exec bgem
-----
-
 To run the specs:
 
 [source,bash]
